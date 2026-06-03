@@ -16,7 +16,16 @@
 ```bash
 git clone https://github.com/AyliNikes/TP_HW2.git
 cd TP_HW2
-pip install -r requirements.txt
+```
+
+Установка зависимостей:
+
+```bash
+# Linux / macOS
+python3 -m pip install -r requirements.txt
+
+# Windows
+py -m pip install -r requirements.txt
 ```
 
 ## Использование
@@ -24,7 +33,11 @@ pip install -r requirements.txt
 Код классов находится в `classes.py`. Запуск тестов:
 
 ```bash
-pytest
+# Linux / macOS
+python3 -m pytest
+
+# Windows
+py -m pytest
 ```
 
 Тесты расположены в `test_recipes.py`.
