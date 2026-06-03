@@ -14,8 +14,8 @@
 ## Установка
 
 ```bash
-git clone <адрес-вашего-репозитория>
-cd <имя-папки>
+git clone https://github.com/AyliNikes/TP_HW2.git
+cd TP_HW2
 pip install -r requirements.txt
 ```
 
